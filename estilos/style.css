@@ -17,7 +17,7 @@
 
 body,
 html {
-    background-color: var(--cor3);
+    background-color: #ff5416;
     height: 100vh;
     width: 100vw;
 }
@@ -93,7 +93,7 @@ div.campo > input {
     width: calc(100% - 47px);
     height: 100%;
     padding: 4px;
-    transform: translateY(-14px);
+    transform: translateY(-13px);
 }
 
 .campo > input :focus-within{
