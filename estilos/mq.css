@@ -7,6 +7,7 @@
 
     #login {
         width: 80vw;
+        height: 320px;
     }
 
     #login > #imagem {
@@ -19,15 +20,21 @@
         float: right;
         width: 70%;
     }
+
+    #formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to right, #FF7000, #FF9B00);
+        background-image: linear-gradient(to right, #ff5416 10%, #ff8800);
     }
     
     #login {
         width: 950px;
+        height: 350px;
     }
 
     #login > #imagem {
@@ -46,6 +53,7 @@
     }
 
     #formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
